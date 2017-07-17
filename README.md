@@ -1,6 +1,6 @@
 # Vue.js 학습을 위한 프로젝트 템플릿
 
-프로젝트에 사용되는 Pug, Sass, ECMAScript 2016(ES6), 이미지 압축, 라이브 서버 구동을 자동으로 처리.
+프로젝트에 사용되는 Pug, Sass, ECMAScript 2015(ES6), 이미지 압축, 라이브 서버 구동을 자동으로 처리.
 
 ## 설치
 
@@ -63,6 +63,15 @@ $ npm run bulma
 # font awesome 라이브러리 복사/이동
 $ npm run font-awesome
 
+# ESLint 규칙 생성
+$ npm run eslint-init
+
+# ESLint 실행(1회)
+$ npm run eslint
+
+# ESLint 워치
+$ npm run eslint-watch
+
 # 프로젝트 컴파일 데이터 제거
 $ npm run clean
 ```
@@ -82,5 +91,7 @@ $ npm run clean
 - babel-cli
 - babel-preset-env
 - imagemin-cli
+- eslint
+- eslint-watch
 - live-server
 - npm-run-all
