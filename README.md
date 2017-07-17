@@ -6,7 +6,7 @@
 
 ```sh
 # 압축을 푼 디렉토리로 이동
-$ cd project-template
+$ cd vue-project-template
 
 # NPM 개발 모듈 설치 (package.json 참조)
 $ npm install
