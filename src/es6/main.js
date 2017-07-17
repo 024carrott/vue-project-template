@@ -2,6 +2,6 @@
 ((global)=>{
   'use strict';
 
-  
+
 
 })(window);
